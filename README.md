@@ -5,7 +5,7 @@ Este projeto consiste no desenvolvimento de um portfólio online pessoal como re
 ## 🚀 Demonstração
 
 O site está publicado e pode ser acessado através do link abaixo:
-> **Link do Projeto:** [INSIRA AQUI O LINK DO SEU GITHUB PAGES]
+> **Link do Projeto:** [Visite o site](https://mgouveas.github.io/atividade-pratica-desenvolvimento-web/)
 
 ---
 
