@@ -158,3 +158,74 @@ footer {
         letter-spacing: 1px;
     }
 }
+
+/* --- ESTILO DO FORMULÁRIO --- */
+.minimal-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-group label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: var(--accent-color);
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 12px;
+    border: 1px solid #e2e8e4;
+    border-radius: 4px;
+    background-color: #fff;
+    color: var(--text-color);
+    outline: none;
+    transition: var(--transition);
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 5px rgba(178, 172, 136, 0.2);
+}
+
+.btn-submit {
+    padding: 15px;
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: var(--transition);
+}
+
+.btn-submit:hover {
+    background-color: #9a9473; /* Tom de sálvia um pouco mais escuro */
+}
+
+/* Validação */
+.error-msg {
+    color: #cc8888; /* Vermelho pastel */
+    font-size: 0.7rem;
+    display: none;
+    margin-top: 5px;
+}
+
+.success-text {
+    color: #88aa88; /* Verde pastel */
+    font-size: 0.9rem;
+    display: none;
+    text-align: center;
+    margin-top: 10px;
+}
